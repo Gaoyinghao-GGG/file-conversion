@@ -1,0 +1,21 @@
+.weui-tabbar__item.weui-bar__item--on .weui-tabbar__label {color: #FF6E5A;}
+.weui-navbar__item.weui-bar__item--on {color: #FF6E5A;background: none;border-bottom: #FF6E5A 2px solid;}
+.head-search input{background: #EC571A;background: rgba(0, 0, 0, 0.25);}
+.theme-color{color: #FF6E5A !important;}
+.theme-bgcolor{background: #FF6E5A !important;}
+.theme-bdcolor{border: 1px solid #EC571A !important;}
+.weui-count .weui-count__btn {border: 1px solid #FF6E5A; }
+.weui-count .weui-count__increase {background-color: #FF6E5A; }
+.weui-count .weui-count__btn:after, .weui-count .weui-count__btn:before {background-color: #FF6E5A; }
+.weui-count .weui-count__increase:after, .weui-count .weui-count__increase:before {background-color: #fff; }
+
+/*首页*/
+.swiper-pagination-bullet-active {background: #FF6E5A;}
+.index-news .news-cont strong em{background: #FF6E5A;}
+/*详情页*/
+.item-spec-layer .spec-info .spec-info-bd ul li.active{border-color: #FF6E5A;color: #FF6E5A;}
+/*分类*/
+.class-cont .class-hd>li.active>a, .class-cont .class-hd>li.active>a:focus, .class-cont .class-hd>li.active>a:hover {color: #FF6E5A;}
+/*发现好货*/
+.find-cart .cart-tab.active{color: #FF6E5A;border-bottom: 2px solid #FF6E5A;}
+.group1-hd .hd-take{border: 1px solid #FF6E5A;color: #FF6E5A;}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+
+    <!--<classPathEntry location="D:/mysql-connector-java-5.1.29.jar" />-->
+    <!--<classPathEntry location="D:/mssql-jdbc-6.1.0.jre7.jar" />--> <!-- SQL SERVER -->
+
+    <!--<context id="websocket" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <property name="suppressDate" value="true" />
+            &lt;!&ndash; 是否去除自动生成的注释 true：是 ： false:否 &ndash;&gt;
+            <property name="suppressAllComments" value="true" />
+        </commentGenerator>
+
+        &lt;!&ndash; 数据库链接URL，用户名、密码 &ndash;&gt;
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://47.104.188.231:3306/keyier?characterEncoding=utf8"
+                        userId="root" password="!kyecc.!"></jdbcConnection>
+
+        &lt;!&ndash;生成模型的包名和位置 &ndash;&gt;
+        <javaModelGenerator targetPackage="com.iocasckani.project.percenter.pay.entity" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        &lt;!&ndash; 生成映射文件的包名和位置 &ndash;&gt;
+        <sqlMapGenerator targetPackage="com.iocasckani.project.percenter.pay.mapper" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+
+        &lt;!&ndash; 生成DAO的包名和位置 &ndash;&gt;
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.iocasckani.project.percenter.pay.mapper" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+        &lt;!&ndash; 要生成哪些表 &ndash;&gt;
+        &lt;!&ndash; 数据表进行生成操作 schema:相当于库名; tableName:表名; domainObjectName:对应的DO &ndash;&gt;
+        &lt;!&ndash; 错误表名称，变异通过 &ndash;&gt;
+        <table tableName="alipay_order111" domainObjectName="AliPayOrder"
+            enableCountByExample="false" enableUpdateByExample="false"
+            enableDeleteByExample="false" enableSelectByExample="false"
+            selectByExampleQueryId="false"></table>
+
+    </context>-->
+
+</generatorConfiguration>

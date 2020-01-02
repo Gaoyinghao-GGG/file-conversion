@@ -1,0 +1,65 @@
+<head th:fragment="mall_header">
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" name="viewport">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+
+    <link rel="stylesheet" href="../static/css/weui/weui.min.css" th:href="@{/css/weui/weui.min.css}">
+    <link rel="stylesheet" href="../static/css/weui/jquery-weui.min.css" th:href="@{/css/weui/jquery-weui.min.css}">
+    <link rel="stylesheet" href="../static/css/weui/bootstrap.min.css" th:href="@{/css/weui/bootstrap.min.css}">
+
+    <link rel="stylesheet" href="../static/css/font-awesome.min.css" th:href="@{/css/font-awesome.min.css}">
+    <link rel="stylesheet" href="../static/css/swiper.min.css" th:href="@{/css/swiper.min.css}">
+    <link rel="stylesheet" href="../static/css/mall/main.css" th:href="@{/css/mall/main.css}">
+
+    <link rel="stylesheet" href="../static/css/theme-color.css" th:href="@{/css/theme-color.css}">
+
+    <!--[if lt IE 9]>
+    <script src="../static/js/html5/html5shiv.js" th:src="@{/js/html5/html5shiv.js}"></script>
+    <script src="../static/js/html5/respond.min.js" th:src="@{/js/html5/respond.min.js}"></script>
+    <![endif]-->
+</head>
+
+<div th:fragment="mall_footer">
+    <script src="../static/js/html5/jquery.min.js" th:src="@{/js/html5/jquery.min.js}"></script>
+    <script src="../static/js/html5/jquery-weui.min.js" th:src="@{/js/html5/jquery-weui.min.js}"></script>
+    <script src="../static/js/swiper.min.js" th:src="@{/js/swiper.min.js}"></script>
+    <script src="../static/js/bootstrap.min.js" th:src="@{/js/bootstrap.min.js}"></script>
+    <script th:inline="javascript"> var ctx = [[@{/}]]; </script>
+</div>
+
+<head th:fragment="vote_header">
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" name="viewport">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+
+    <link rel="stylesheet" href="../static/css/weui/weui.min.css" th:href="@{/css/weui/weui.min.css}">
+    <link rel="stylesheet" href="../static/css/weui/jquery-weui.min.css" th:href="@{/css/weui/jquery-weui.min.css}">
+    <link rel="stylesheet" href="../static/css/weui/bootstrap.min.css" th:href="@{/css/weui/bootstrap.min.css}">
+
+    <link rel="stylesheet" href="../static/css/font-awesome.min.css" th:href="@{/css/font-awesome.min.css}">
+    <link rel="stylesheet" href="../static/css/swiper.min.css" th:href="@{/css/swiper.min.css}">
+    <link rel="stylesheet" href="../static/css/vote/main.css" th:href="@{/css/vote/main.css}">
+
+    <link rel="stylesheet" href="../static/css/theme-color.css" th:href="@{/css/theme-color.css}">
+
+    <!--[if lt IE 9]>
+    <script src="../static/js/html5/html5shiv.js" th:src="@{/js/html5/html5shiv.js}"></script>
+    <script src="../static/js/html5/respond.min.js" th:src="@{/js/html5/respond.min.js}"></script>
+    <![endif]-->
+</head>
+
+<div th:fragment="vote_footer">
+    <script src="../static/js/html5/jquery.min.js" th:src="@{/js/html5/jquery.min.js}"></script>
+    <script src="../static/js/html5/jquery-weui.min.js" th:src="@{/js/html5/jquery-weui.min.js}"></script>
+    <script src="../static/js/swiper.min.js" th:src="@{/js/swiper.min.js}"></script>
+    <script src="../static/js/bootstrap.min.js" th:src="@{/js/bootstrap.min.js}"></script>
+    <script th:inline="javascript"> var ctx = [[@{/}]]; </script>
+</div>

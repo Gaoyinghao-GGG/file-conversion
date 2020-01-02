@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:include="include::mall_header">错误提示</head>
+<link rel="stylesheet" th:href="@{/css/mall/index.css}">
+<link rel="stylesheet" th:href="@{/css/mall/emptycart.css}">
+<body>
+<header class="zyw-header">
+    <div class="zyw-container white-color">
+        <div class="head-l"><a href="javascript:window.history.back(-1)" target="_self"><img th:src="@{/img/svg/head-return.svg}" alt=""></a></div>
+        <h1>错误提示</h1>
+        <!--<div class="head-r"><a href="">编辑</a></div>-->
+    </div>
+</header>
+
+<section class="zyw-container">
+
+    <div class="index-seckill">
+        <div class="wares-title"><img th:src="@{/img/error_cry.png}"  alt=""></div>
+        <div class="wares-title">
+            错误信息：
+        </div>
+        <div class="wares-title" th:text="${error_msg}">
+
+        </div>
+        <!--<div class="seckill-hd">-->
+            <!--<a th:href="'/inner/mall/index/'+${current_memberId}" class="weui-btn weui-btn_plain-primary" style="width: 200px;">返回首页</a>-->
+        <!--</div>-->
+    </div>
+</section>
+<div th:include="include::mall_footer"></div>
+</body>
+</html>

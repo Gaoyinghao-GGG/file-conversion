@@ -1,0 +1,98 @@
+#jwt秘钥
+base64Security=1abc$def2.TEZ
+
+#AES秘钥
+encodeRules=!@#xdfe^^&jjjl1288
+
+#端口
+server.port=5881
+
+# db config
+#spring.datasource.username=kye
+#spring.datasource.password=!kye123!
+spring.datasource.username=root
+spring.datasource.password=ok
+spring.datasource.url = jdbc:mysql://localhost:3306/iocas_cloud?characterEnconding=utf8?useUnicode=true&characterEncoding=utf-8&useSSL=false
+
+spring.datasource.driverClassName = com.mysql.jdbc.Driver
+
+spring.datasource.initialSize=20
+spring.datasource.minIdle=10
+spring.datasource.maxActive=100
+# 配置获取连接等待超时的时间
+spring.datasource.tomcat.max-wait=60000
+# 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+spring.datasource.tomcat.time-between-eviction-runs-millis=60000
+# 配置一个连接在池中最小生存的时间，单位是毫秒
+spring.datasource.tomcat.min-evictable-idle-time-millis= 30000
+
+mybatis.mapperLocations=classpath:mybatis/**/*.xml
+
+#短信appid
+appid=1400116482
+
+#音频服务appid
+#sdkappid=1400116482
+#sdkappid=1257100726
+sdkappid=1400137468
+#sdkappid=1253758721
+
+#短信key
+appkey=cd1ac8390b13e4124ffbc537c6992d55
+
+#短信模板ID-注册
+templateId=171276
+
+#短信模板ID-更改密码
+pswTemplateId=171277
+
+#签名id
+smsSign=161265
+
+#签名
+smsSignName=【科易尔云课堂】
+
+#会员积分key
+configKey=sys.vipuser.memberPoints
+
+#推荐奖励会员积分key
+configCommendKey=sys.vipuser.commendPoints
+
+
+#图片存储路径 部署到服务器则改地址
+#upload.path=D://Keyier//static//
+
+upload-path=/usr/local/tomcat/webapps/static/
+
+upload.pic.path=/static/
+
+#默认头像
+#head-photo=/static/cartoon.png
+head-photo=/static/headPic.png
+
+#商城首页地址
+shop.url=/inner/mall/index/
+
+#协议地址
+agreement.url =/inner/protocol/
+
+#投票首页地址
+vote.rul=/inner/vote/issuevote/
+
+# 接口IP
+interace.url = http://47.104.188.231/
+
+#spring.mvc.static-path-pattern=/**
+#spring.resources.static-locations=classpath:/resources/,classpath:/templates/,classpath:/static/,file:${web.upload-path}
+
+# thymeleaf
+spring.thymeleaf.prefix=classpath:/templates/
+spring.thymeleaf.check-template-location=true
+spring.thymeleaf.suffix=.html
+spring.thymeleaf.encoding=UTF-8
+spring.thymeleaf.content-type=text/html
+spring.thymeleaf.mode=LEGACYHTML5
+spring.thymeleaf.cache=false
+
+# netCDF文件保存路径
+netcdf.path= D://temp//

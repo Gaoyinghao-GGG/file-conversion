@@ -1,0 +1,60 @@
+<div th:fragment="mall_tabbar">
+    <div class="weui-tabbar">
+        <a id="tabbar_index" th:href="'/inner/mall/index/'+${current_vipUserId}" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="../static/img/mall/foot-1-1.svg" th:src="@{/img/mall/foot-1-1.svg}" th:if="${current_page} eq 'index'" alt="">
+                <img src="../static/img/mall/foot-1.svg" th:src="@{/img/mall/foot-1.svg}" th:if="${current_page} ne 'index'" alt="">
+            </div>
+            <p class="weui-tabbar__label">首页</p>
+        </a>
+        <a id="tabbar_class" th:href="'/inner/mall/class/'+${current_vipUserId}" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="../static/img/mall/foot-2.svg" th:src="@{/img/mall/foot-2-1.svg}" th:if="${current_page} eq 'class'" alt="">
+                <img src="../static/img/mall/foot-2.svg" th:src="@{/img/mall/foot-2.svg}" th:if="${current_page} ne 'class'" alt="">
+            </div>
+            <p class="weui-tabbar__label">分类</p>
+        </a>
+        <a id="tabbar_cart" th:href="'/inner/mall/cart/'+${current_vipUserId}" class="weui-tabbar__item">
+            <span class="weui-badge" style="position: absolute;top: -.4em;right: 1em;" th:if="${cart_goods_count} > 0" th:text="${cart_goods_count}"></span>
+            <div class="weui-tabbar__icon">
+                <img src="../static/img/mall/foot-3.svg" th:src="@{/img/mall/foot-3-1.svg}" th:if="${current_page} eq 'cart'" alt="">
+                <img src="../static/img/mall/foot-3.svg" th:src="@{/img/mall/foot-3.svg}" th:if="${current_page} ne 'cart'" alt="">
+            </div>
+            <p class="weui-tabbar__label">购物车</p>
+        </a>
+        <a id="tabbar_home" th:href="'/inner/mall/home/'+${current_vipUserId}" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="../static/img/mall/foot-4.svg" th:src="@{/img/mall/foot-4-1.svg}" th:if="${current_page} eq 'home'" alt="">
+                <img src="../static/img/mall/foot-4.svg" th:src="@{/img/mall/foot-4.svg}" th:if="${current_page} ne 'home'" alt="">
+            </div>
+            <p class="weui-tabbar__label">我的</p>
+        </a>
+    </div>
+</div>
+
+
+<div th:fragment="vote_tabbar">
+    <div class="weui-tabbar">
+        <a id="tabbar_issuevote" th:href="'/inner/vote/issuevote/'+${current_vipUserId}" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img th:src="@{/img/vote/foot-1-1.svg}" th:if="${current_page} eq 'issuevote'" alt="">
+                <img th:src="@{/img/vote/foot-1.svg}" th:if="${current_page} ne 'issuevote'" alt="">
+            </div>
+            <p class="weui-tabbar__label">首页</p>
+        </a>
+        <a id="tabbar_myvote" th:href="'/inner/vote/myvote/'+${current_vipUserId}" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img th:src="@{/img/vote/foot-2-1.svg}" th:if="${current_page} eq 'myvote'" alt="">
+                <img th:src="@{/img/vote/foot-2.svg}" th:if="${current_page} ne 'myvote'" alt="">
+            </div>
+            <p class="weui-tabbar__label">我的投票</p>
+        </a>
+        <a id="tabbar_myissuevote" th:href="'/inner/vote/myissuevote/'+${current_vipUserId}" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img th:src="@{/img/vote/foot-3-1.svg}" th:if="${current_page} eq 'myissuevote'" alt="">
+                <img th:src="@{/img/vote/foot-3.svg}" th:if="${current_page} ne 'myissuevote'" alt="">
+            </div>
+            <p class="weui-tabbar__label">我的发布</p>
+        </a>
+    </div>
+</div>

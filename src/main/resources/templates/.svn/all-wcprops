@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/iocas/!svn/ver/301/ckan_interface/iocasckan_interface/src/main/resources/templates
+END
+createfile.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/iocas/!svn/ver/301/ckan_interface/iocasckan_interface/src/main/resources/templates/createfile.html
+END
+include.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/iocas/!svn/ver/2/ckan_interface/iocasckan_interface/src/main/resources/templates/include.html
+END
+error.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/iocas/!svn/ver/2/ckan_interface/iocasckan_interface/src/main/resources/templates/error.html
+END
+tabbar.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/iocas/!svn/ver/2/ckan_interface/iocasckan_interface/src/main/resources/templates/tabbar.html
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/iocas/!svn/ver/301/ckan_interface/iocasckan_interface/src/main/resources
+END
+logback-spring.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/iocas/!svn/ver/2/ckan_interface/iocasckan_interface/src/main/resources/logback-spring.xml
+END
+generatorConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/iocas/!svn/ver/2/ckan_interface/iocasckan_interface/src/main/resources/generatorConfig.xml
+END
+application.properties
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/iocas/!svn/ver/301/ckan_interface/iocasckan_interface/src/main/resources/application.properties
+END
